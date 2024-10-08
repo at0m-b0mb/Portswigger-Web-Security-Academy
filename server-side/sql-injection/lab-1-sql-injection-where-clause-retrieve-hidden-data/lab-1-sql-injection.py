@@ -48,7 +48,7 @@ if __name__ == "__main__":
         print("[-] Usage: %s <url> <payload>" % sys.argv[0])
         print('[-] Example: %s www.example.com "1=1"' % sys.argv[0])
         
-        # Opional filling Manually
+        # Optional filling Manually
         url = 'https://<Edit This>.web-security-academy.net'  #Update Domain here
         payload = "'OR 1 = 1--"
 
