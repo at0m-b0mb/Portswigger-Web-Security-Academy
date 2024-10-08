@@ -9,7 +9,7 @@ Link: https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-dat
 
 3. Goal:  Display unreleased products
 
-4. Exploit: SELECT * FROM products WHERE category = 'Pets' AND released = 0--' AND released = 1
+4. Exploit: SELECT * FROM products WHERE category = 'Pets' AND released = 0--' AND released = 1 #Didn't Work
 
 or 
 
