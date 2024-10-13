@@ -7,7 +7,7 @@ Link: https://portswigger.net/web-security/sql-injection/examining-the-database/
 
 2. Goal: 1. Determine the Table that contains User Info
          2. Determine the columns of the relevant table
-         3. Output the contents o the Table
+         3. Output the contents of the Table
          4. Login as Administrator user (Final Goal)
 
 3 Analysis: 1. Find The Number of Columns (' ORDER BY 1-)
