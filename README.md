@@ -41,7 +41,7 @@ SQL Injection is a powerful vulnerability that can allow attackers to manipulate
   - [Lab 3: SQL injection attack, querying the database type and version on Oracle](./server-side/sql-injection/lab-3-sql-injection-query-database-type-oracle) - Solved
   - [Lab 4: SQL injection attack, querying the database type and version on MySQL and Microsoft](./server-side/sql-injection/lab-4-sql-injection-query-database-type-mysql-microsoft) - Solved
   - [Lab 5: SQL injection attack, listing the database contents on non-Oracle databases](./server-side/sql-injection/lab-5-sql-injection-list-database-contents-non-oracle) - Solved
-  - [Lab 6: SQL injection attack, listing the database contents on Oracle](./server-side/sql-injection/lab-6-sql-injection-list-database-contents-oracle) - Not Solved
+  - [Lab 6: SQL injection attack, listing the database contents on Oracle](./server-side/sql-injection/lab-6-sql-injection-list-database-contents-oracle) - Solved
   - [Lab 7: SQL injection UNION attack, determining the number of columns returned by the query](./server-side/sql-injection/lab-7-sql-injection-union-determine-columns) - Not Solved
   - [Lab 8: SQL injection UNION attack, finding a column containing text](./server-side/sql-injection/lab-8-sql-injection-union-find-column-text) - Not Solved
   - [Lab 9: SQL injection UNION attack, retrieving data from other tables](./server-side/sql-injection/lab-9-sql-injection-union-retrieve-data-other-tables) - Not Solved
