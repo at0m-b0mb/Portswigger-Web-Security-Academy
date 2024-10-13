@@ -10,7 +10,7 @@ Link: https://portswigger.net/web-security/sql-injection/examining-the-database/
          3. Output the contents of the Table
          4. Login as Administrator user (Final Goal)
 
-3 Analysis: 1. Find The Number of Columns (' ORDER BY 1-)
+3 Analysis: 1. Find The Number of Columns (' ORDER BY 1--)
                 - 2 columns (Error in 'ORDER BY 3--)
             2. Find the Data Types of the Columns (' UNION SELECT 'a', 'a'--)
                 - Both Columns Accept Data type TEXT
