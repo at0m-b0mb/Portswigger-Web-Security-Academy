@@ -136,7 +136,7 @@ def solve_lab(url):
 # Main function
 if __name__ == "__main__":
     try:
-        url = sys.argv[1].strip()
+        url = sys.argv[1]
     except IndexError:
         print("[-] Usage: %s <url>" % sys.argv[0])
         #Edit The url
