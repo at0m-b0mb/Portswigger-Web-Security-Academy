@@ -113,16 +113,14 @@ def sqli_users_table(url):
 
 if __name__ == "__main__":
     try:
-        url = sys.argv[1].strip()
-        payload = sys.argv[2].strip()
+        url = sys.argv[1]
     except IndexError:
         print("[-] Usage: %s <url> <payload>" % sys.argv[0])
-        print('[-] Example: %s www.example.com "1=1"' % sys.argv[0])
         
         # Optional filling Manually
         url = 'https://0a050043033331af8028c68e00d300b4.web-security-academy.net'
         url_login= url + "/login"
-        s=requests.Session()
+    s=requests.Session()
 
     print("Looking for Users Table...")
 
