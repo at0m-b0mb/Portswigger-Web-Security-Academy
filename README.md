@@ -47,7 +47,7 @@ SQL Injection is a powerful vulnerability that can allow attackers to manipulate
   - [Lab 9: SQL injection UNION attack, retrieving data from other tables](./server-side/sql-injection/lab-9-sql-injection-union-retrieve-data-other-tables) - Solved
   - [Lab 10: SQL injection UNION attack, retrieving multiple values in a single column](./server-side/sql-injection/lab-10-sql-injection-union-retrieve-multiple-values) - Solved
   - [Lab 11: Blind SQL injection with conditional responses](./server-side/sql-injection/lab-11-blind-sql-injection-conditional-responses) - Solved
-  - [Lab 12: Blind SQL injection with conditional errors](./server-side/sql-injection/lab-12-blind-sql-injection-conditional-errors) - Not Solved
+  - [Lab 12: Blind SQL injection with conditional errors](./server-side/sql-injection/lab-12-blind-sql-injection-conditional-errors) - Solved
   - [Lab 13: Visible error-based SQL injection](./server-side/sql-injection/lab-13-visible-error-based-sql-injection) - Not Solved
   - [Lab 14: Blind SQL injection with time delays](./server-side/sql-injection/lab-14-blind-sql-injection-time-delays) - Not Solved
   - [Lab 15: Blind SQL injection with time delays and information retrieval](./server-side/sql-injection/lab-15-blind-sql-injection-time-delays-information-retrieval) - Not Solved
