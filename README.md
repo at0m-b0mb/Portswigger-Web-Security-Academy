@@ -50,7 +50,7 @@ SQL Injection is a powerful vulnerability that can allow attackers to manipulate
   - [Lab 12: Blind SQL injection with conditional errors](./server-side/sql-injection/lab-12-blind-sql-injection-conditional-errors) - Solved
   - [Lab 13: Visible error-based SQL injection](./server-side/sql-injection/lab-13-visible-error-based-sql-injection) - Solved
   - [Lab 14: Blind SQL injection with time delays](./server-side/sql-injection/lab-14-blind-sql-injection-time-delays) - Solved
-  - [Lab 15: Blind SQL injection with time delays and information retrieval](./server-side/sql-injection/lab-15-blind-sql-injection-time-delays-information-retrieval) - Not Solved
+  - [Lab 15: Blind SQL injection with time delays and information retrieval](./server-side/sql-injection/lab-15-blind-sql-injection-time-delays-information-retrieval) - Solved
   - [Lab 16: Blind SQL injection with out-of-band interaction](./server-side/sql-injection/lab-16-blind-sql-injection-oob) - Not Solved
   - [Lab 17: Blind SQL injection with out-of-band data exfiltration](./server-side/sql-injection/lab-17-blind-sql-injection-oob-data-exfiltration) - Not Solved
   - [Lab 18: SQL injection with filter bypass via XML encoding](./server-side/sql-injection/lab-18-sql-injection-filter-bypass-xml-encoding) - Not Solved
